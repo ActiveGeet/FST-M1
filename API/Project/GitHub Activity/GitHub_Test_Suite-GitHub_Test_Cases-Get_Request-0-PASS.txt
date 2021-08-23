@@ -1,0 +1,61 @@
+Status: PASS
+Time Taken: 551
+Size: 87
+Timestamp: Fri Aug 13 09:43:09 IST 2021
+TestStep: Get Request
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: GET
+StatusCode: 200
+URL: https://api.github.com/user/emails
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/15)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+
+GET https://api.github.com/user/emails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Bearer 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
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/15)
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [user, user:email]
+Server: [GitHub.com]
+X-RateLimit-Resource: [core]
+X-RateLimit-Used: [4]
+Access-Control-Allow-Origin: [*]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4996]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [0]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [C01A:5778:45D159:4D13A5:6115F172]
+Transfer-Encoding: [chunked]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1628831393]
+Date: [Fri, 13 Aug 2021 04:13:38 GMT]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: [W/"f033efb25ffbae05e3d3b4173ba7277a6df9d91d98cbbe9a931308c2c58cb0eb"]
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [admin:public_key, user]
+github-authentication-token-expiration: [2021-09-11 05:13:20 UTC]
+
+[{"email":"activegeet@gmail.com","primary":true,"verified":true,"visibility":"public"}]
